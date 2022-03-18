@@ -2,14 +2,15 @@
 
 function explode(s) {
     let newS = [];
+
     s = s.split('')
     s.forEach(el => {
         for(let i = 0; i < el; i++){
            newS.push(el)
        }
     });
-    newS = newS.join('')
-    return newS
+
+    return newS.join('')
 }
 
 //Liked solution:
